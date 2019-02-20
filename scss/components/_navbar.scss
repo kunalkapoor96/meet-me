@@ -1,0 +1,19 @@
+.top-bar{
+  background-image: linear-gradient(-90deg, $sky-blue, $purple);
+
+  .dropdown {
+     background-image: linear-gradient(-90deg, $sky-blue, $purple);
+     padding-top: 20px;
+
+      a ,li {
+        font-size: 10px;
+        color: $white;
+
+    	
+    }
+  }
+}
+#collapsable-menu
+{
+   background-image: linear-gradient(-90deg, #74D8FF, #8830FF);
+}

@@ -1,0 +1,27 @@
+progress {
+  border: 0;
+  background: #eee;
+  border-radius: 10px;
+  height: 10px;
+}
+
+progress::-moz-progress-bar {
+  border-radius: 10px;
+  width: 350px;
+  height: 10px;
+  background: linear-gradient(to right, $purple, $sky-blue);
+}
+
+progress::-webkit-progress-bar {
+  background: #eee;
+  border-radius: 10px;
+  width: 350px;
+  height: 10px;
+}
+
+progress::-webkit-progress-value {
+  border-radius: 10px;
+  width: 350px;
+  height: 10px;
+  background: linear-gradient(to right, $purple, $sky-blue);
+}
